@@ -6,6 +6,8 @@
 }
 
 #punchline {
+/*	position: absolute;*/
+	margin-left: 5%;
 	font-size: 32px;
 	font-style: italic;
 }
@@ -23,7 +25,11 @@
 
 .item {
 	display: inline-block;
-	margin: 20px;
+	margin: 10px 30px 10px 30px;
+}
+.item:hover { 
+    opacity: 0.5;
+    -webkit-transform: scale(1.15);
 }
 
 img {
@@ -35,10 +41,11 @@ img {
 }
 
 #container {
-	/* make centered somehow */
-/*	margin-right: auto;
-	margin-left: auto;*/
 	position: absolute;
     top: calc(50%);
-    left: calc(50% - 300px);
+    left: calc(50% - 305px);
+}
+
+h2 {
+	text-align: center;
 }
