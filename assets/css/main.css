@@ -54,10 +54,10 @@ img {
 }
 
 #container {
-/*	border-style: solid;
-*/	position: absolute;
-    top: calc(50% + 100px); /* temp fix need to rework this. make title scale */
-    left: calc(50% - 305px);
+	border-style: solid;
+	position: absolute;
+    top: calc(50% + 100px);
+    left: calc(50% - 325px);
 }
 
 h2 {
