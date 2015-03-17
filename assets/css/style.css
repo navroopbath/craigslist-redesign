@@ -8,14 +8,6 @@ body {
   width: 100%;
 }
 
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
 #nav-bar {
   position: fixed;
   width: 100%;
@@ -49,9 +41,8 @@ body {
 #navbar-user-arrow {
   float: left;
   width: 24px;
-  margin: 18px 0;
-  opactity: 0.6;
-  transition: linear 0.2s;
+  margin: 18px 0px;
+  opacity: 0.6;
 }
 
 #title-logo {
