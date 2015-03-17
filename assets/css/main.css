@@ -5,9 +5,6 @@ iframe {
 	height: 90px;
 }
 #header {
-/*	position: absolute;
-	top: calc(15%);  temp fix need to rework this. make title scale 
-    left: calc(50% - 310px);*/
     margin-right: auto;
     margin-left: auto;
 	letter-spacing: 3px;
@@ -21,6 +18,7 @@ iframe {
 }
 
 p {
+	font-family: 'Crimson Text', serif;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-align: center;
@@ -50,7 +48,7 @@ img {
 #container {
 /*	border-style: solid;
 */	position: absolute;
-    top: 350px; /* temp fix need to rework this. make title scale */
+    top: 350px;
     left: calc(50% - 305px);
     color: #55647d;
 }
