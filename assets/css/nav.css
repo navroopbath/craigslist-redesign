@@ -97,6 +97,10 @@ body {
   float: left;
 }
 
+#title-logo:hover {
+  opacity: 0.5;
+}
+
 #title-name {
   float: left;
   color: white;
@@ -143,13 +147,33 @@ body {
 }
 
 .search-input {
-  margin: 22px 0px 0px 22px;
+  margin: 22px 0px 0px 380px;
   padding: 5px 15px;
   border: 1px solid white;
   border-radius: 5px;
   font-size: 17px;
   width: 450px;
   height: 30px;
+}
+
+#post {
+  margin: 20px 0px 0px 40px;
+}
+
+input.submit-post {
+  height: 42px;
+  width: 150px;
+  background: #56617f;
+  color: white;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input.submit-post:hover {
+  opacity: 0.8;
 }
 
 input.submit-input {
@@ -162,4 +186,8 @@ input.submit-input {
   font-weight: 900;
   border-style: none;
   border-radius: 5px 5px 5px 5px;
+}
+
+input.submit-input:hover {
+  opacity: 0.8;
 }
