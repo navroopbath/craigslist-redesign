@@ -16,8 +16,8 @@ iframe {
 /*	margin-top: 10%;*/
 }
 
-#header h1 {
-	color: #5c048c;
+#header {
+	color: #55647d;
 }
 
 p {
@@ -50,8 +50,9 @@ img {
 #container {
 /*	border-style: solid;
 */	position: absolute;
-    top: calc(50% + 100px); /* temp fix need to rework this. make title scale */
+    top: 350px; /* temp fix need to rework this. make title scale */
     left: calc(50% - 305px);
+    color: #55647d;
 }
 
 h2 {
