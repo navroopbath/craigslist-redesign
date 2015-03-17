@@ -10,7 +10,6 @@ iframe {
 	letter-spacing: 3px;
 	font-size: 40px;
 	text-align: center;
-/*	margin-top: 10%;*/
 }
 
 #header {
@@ -34,6 +33,11 @@ p {
 .item:hover { 
     opacity: 0.5;
     -webkit-transform: scale(1.15);
+
+}
+
+img:hover {
+	border-color: #530053;
 }
 
 img {
@@ -42,12 +46,10 @@ img {
 	border-radius: 50%;
     border-style: solid;
     border-width: 2px;
-/*    object-fit: cover;*/
 }
 
 #container {
-/*	border-style: solid;
-*/	position: absolute;
+	position: absolute;
     top: 350px;
     left: calc(50% - 305px);
     color: #55647d;
@@ -67,5 +69,4 @@ hr {
 	border-color: black;
 	margin-left: auto;
 	margin-right: auto;
-
 }
