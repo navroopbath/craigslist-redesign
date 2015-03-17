@@ -1,18 +1,9 @@
 /* CSS file for main html */
 /* Author: Ace Haidrey */
 
-
-body {
-	/*background-image: url(http://www.inetours.com/Pages/images/Beach/Baker-Beach_5325.jpg);*/
-	/*background-image: url(http://www.webtexture.net/wp-content/gallery/20-seamless-paper-texture/papar_texture_thumb16.jpg);*/
-	background-image: url(http://www.webtexture.net/wp-content/gallery/20-seamless-paper-texture/papar_texture_thumb16.jpg);
-/*	background-image: url(assets/img/stardust.png);*/
-	background-color: #f7f5f2;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+iframe {
+	height: 90px;
 }
-
 #header {
 /*	position: absolute;
 	top: calc(15%);  temp fix need to rework this. make title scale 
@@ -23,7 +14,10 @@ body {
 	font-size: 40px;
 	text-align: center;
 /*	margin-top: 10%;*/
+}
 
+#header h1 {
+	color: #5c048c;
 }
 
 p {
