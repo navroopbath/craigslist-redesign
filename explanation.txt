@@ -3,3 +3,14 @@ Ace:
 Adit:
 
 Navroop:
+  I chose to create a nav bar that would be prominent on the top of 
+  every page. Also, since the two most important functions of Craigslist
+  are searching for listings and creating new listings, I integrated
+  those two features in the nav bar so that a user can access those two
+  features from any page. I made the search bar wide so that it attracts the
+  user's attention to the top-left immediately.
+
+  Also, the logo serves as a piece of functionality allowing a user to
+  access the homepage from anywhere. Lastly, I placed the user's name and
+  a drop-down arrow which would allow them to access their various user 
+  settings/prior posts easily.
