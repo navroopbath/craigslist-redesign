@@ -3,26 +3,43 @@
 <head>
   <title>Craigslist Redesign</title>
   <!-- Add Open Sans from Google Fonts here -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
+  <!-- NAV BAR -->
   <div id="nav-bar">
 
-    <div class="logo">
-      <div id="cg-logo">
-        <img class="img-logo" src="assets/img/logo.png">
+    <div class="left">
+      <div id="title">
+        <div id="title-logo">
+          <img class="img-logo" src="assets/img/logo.png">
+        </div>
+        <div id="title-name">Craigslist</div>
       </div>
-      <div class="spacing"></div>
+      <div id="search">
+        <form id="cg-search">
+          <input type="text" class="search-input" name="query" placeholder="Find what you're looking for.">
+          <input type="submit" class="submit-input" value="Search">
+        </form>
+      </div>
+      <div class="nav-item">
+        <div class="nav-icon">
+          <img class="img-scaled" src="assets/img/create-post-button.png">
+        </div>
+      </div>
     </div>
 
-    <div class="search">
-      <form id="cg-search">
-        <input type="text" class="search-input" name="query" placeholder="Find what you're looking for.">
-      </form>
+    <div id='nav'>
     </div>
 
-    <div class="account"></div>
+    <div class="right">
+      <div id="navbar-user">
+        <div id="user-pic"><img class="img-scaled" src="assets/img/empty-user.png"></div>
+        <div id="user-name">John Doe</div>
+        <div id="navbar-user-arrow"><img class="img-scaled" src="assets/img/down-arrow.png"></div>
+      </div>
+    </div>
 
   </div>
 </body>
